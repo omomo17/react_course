@@ -1,0 +1,10 @@
+# how to create new React Project with Vite?
+
+# create new app at the root of the project folder
+$ npm create vite@latest ./ -- --template react
+
+# install the npm packages and tailwindcss. initialize git ath the same time
+$  npm install ; npm install -D tailwindcss ; npx tailwind init ; git init
+
+# start server
+$ npm run dev
