@@ -4,7 +4,18 @@
 $ npm create vite@latest ./ -- --template react
 
 # install the npm packages and tailwindcss. initialize git ath the same time
-$  npm install ; npm install -D tailwindcss ; npx tailwind init ; git init
+$  npm install ; npm install -D tailwindcss postcss autoprefixer ; npx tailwind init ; git init
 
 # start server
 $ npm run dev
+
+# need Icons?
+$ npm install react-icons --save
+
+
+
+# TIPS
+background design
+https://tailwindcss.com/docs/background-image
+
+Icons
