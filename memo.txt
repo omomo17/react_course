@@ -10,8 +10,13 @@ $  npm install ; npm install -D tailwindcss postcss autoprefixer ; npx tailwind 
 $ npm run dev
 
 # need Icons?
+# react-icons
 $ npm install react-icons --save
+# material UI
+$ npm install @mui/material @emotion/react @emotion/styled
 
+# if tailwind css is not available
+-> copy "postcss.config.cjs" to your project 
 
 
 # TIPS
@@ -19,3 +24,5 @@ background design
 https://tailwindcss.com/docs/background-image
 
 Icons
+https://react-icons.github.io/react-icons/
+https://mui.com/material-ui/getting-started/installation/
