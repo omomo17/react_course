@@ -1,5 +1,6 @@
 import FAQs from './FAQs';
-import Accordion from './Accordion';
+// import Accordion from './Accordion';
+import Accordion from './Accordion_v2';
 
 const App = () => {
     return (
