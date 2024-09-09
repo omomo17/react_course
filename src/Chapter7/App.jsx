@@ -1,25 +1,12 @@
+import FAQs from './FAQs';
+import Accordion from './Accordion';
+
 const App = () => {
-  return (
-    <>
-      
-    </>
-  );
+    return (
+        <div className="p-4">
+            <Accordion data={FAQs} />
+        </div>
+    );
 }
 
-function Accordion({ children }) {
-  return (
-    <div className="border border-gray-300 rounded-lg">
-      {children}
-    </div>
-  );
-}
-
-function AccordionItem({ num, title, text }) {
-  return (
-    <div>
-      <p>{num}</p>
-      <p>{text}</p>
-      <p>-</p>
-    </div>
-  );
-}
+export default App;
